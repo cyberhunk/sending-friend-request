@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="add-friend.css">
+  <style>
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="inner">
+      <img
+        src="https://media.istockphoto.com/id/1294339577/photo/young-beautiful-woman.jpg?b=1&s=612x612&w=0&k=20&c=DCEBTfPT-zTLibXjvKNSHkm3KvBD1ZWy2JmALRD__Z4="
+        alt="">
+    </div>
+    <h2>ANGEL PRIYA</h2>
+    <h5>Strenger</h5>
+    <div class="btn">
+      <button id="add">add friend</button>
+      <button id="remove">remove</button>
+
+    </div>
+  </div>
+
+
+  <script src="add-friend.js">
+    var istatus = document.querySelector("h5")
+
+    var addFriend = document.querySelector("#add")
+
+    addFriend.addEventListener("click",function(){
+      istatus.innerHTML = "Friends"
+    });
+
+
+
+  </script>
+</body>
+
+</html>
